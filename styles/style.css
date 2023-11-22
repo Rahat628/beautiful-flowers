@@ -7,6 +7,12 @@ body {
 
 /* common styles*/
 
+.title-style {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
 .paragraph-style {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -35,6 +41,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 178px;
 }
 
 .flower-heading {
@@ -46,7 +53,118 @@ header {
     font-size: 80px;
     font-weight: 800;
 }
-.flower-heading>p{
+
+.flower-heading>p {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+/* Products section(main) */
+.products  , .social-media{
+    width: 1440px;
+    height: 1362px;
+    margin: 0 auto;
+}
+
+.product-writing, .social-media-writing {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.product-image>p {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.product-image>div {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+}
+
+.product-image {
+    display: flex;
+    gap: 24px;
+}
+
+.picture-box1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    text-align: center;
+    position: relative;
+
+}
+
+.product-image img {
+    position: absolute;
+    bottom: 0;
+    left: 55px;
+}
+
+.picture-box2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    text-align: center;
+    position: relative;
+}
+
+.picture-box3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    text-align: center;
+    position: relative;
+}
+
+.headlines {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headlines p {
+    text-decoration: underline;
+}
+
+/* services styles */
+.services{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 128px;
+}
+
+.service-figure {
+    padding-top: 86px;
+    text-align: center;
+}
+
+/* sale section */
+.sale {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    gap:150px;
+}
+.sale-content{
+    text-align: center;
+    margin-left: 300px;
+}
+.social-media-image{
+    display: flex;
+    justify-content: space-around;
+}
+.social-media-image-box{
+    margin-left: auto;
+    margin-right: auto;
+}
+.deals{
+    background-image: url('/Flower Asset/Rectangle\ 9.png');
+    height: 449px;
+    margin-top:128px;
+    text-align: center;
+}
+
