@@ -32,6 +32,10 @@ body {
     gap: 10px;
 }
 
+.text-pink {
+    color: #E55473;
+}
+
 /* header styles */
 header {
     width: 1920px;
@@ -59,14 +63,16 @@ header {
     padding-bottom: 25px;
 }
 
-/* Products section(main) */
-.products  , .social-media{
+/* Products section(main) and social-media */
+.products,
+.social-media {
     width: 1440px;
     height: 1362px;
     margin: 0 auto;
 }
 
-.product-writing, .social-media-writing {
+.product-writing,
+.social-media-writing {
     text-align: center;
     margin-bottom: 48px;
 }
@@ -128,7 +134,7 @@ header {
 }
 
 /* services styles */
-.services{
+.services {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     height: 320px;
@@ -147,24 +153,74 @@ header {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
-    gap:150px;
+    gap: 150px;
 }
-.sale-content{
+
+.sale-content {
     text-align: center;
     margin-left: 300px;
 }
-.social-media-image{
+
+.social-media-image {
     display: flex;
     justify-content: space-around;
 }
-.social-media-image-box{
+
+.social-media-image-box {
     margin-left: auto;
     margin-right: auto;
 }
-.deals{
+
+/* Deals section */
+.deals {
     background-image: url('/Flower Asset/Rectangle\ 9.png');
     height: 449px;
-    margin-top:128px;
+    margin-top: 128px;
     text-align: center;
 }
 
+.Email-field {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-weight: 400;
+}
+
+.deals h4 {
+    padding-top: 122px;
+}
+
+/* Footer */
+footer {
+    height: 449px;
+    background: #111010;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-title {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+}
+
+.footer-paragraph {
+    color: rgba(255, 255, 255, 0.90);
+    /* text-align: center; */
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-ending {
+    color: rgba(255, 255, 255, 0.40);
+    /* text-align: center; */
+    font-family: Lato;
+    font-weight: 400;
+    line-height: normal;
+}
